@@ -1,0 +1,13 @@
+# Stripe API-avaimen luonti:
+# 1. Kirjaudu: https://dashboard.stripe.com/apikeys
+# 2. Luo 'Restricted key' seuraavilla oikeuksilla:
+#    - Customers: Read
+#    - Subscriptions: Write (tai Read/Write)
+# 3. Kopioi avain (alkaa rk_live_...) alla olevaan kenttään.
+
+billing:
+  annual-billing-day: 1
+  annual-billing-month: 1
+  annual-billing-year: null
+stripe:
+  api_key: rk_live_esimerkki_avain_tahan

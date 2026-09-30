@@ -1,0 +1,16 @@
+# Asetukset ja salaisuudet
+config.yaml
+*.key
+*.txt
+
+# Lokit ja debug-tiedot
+*.log
+debug_stripe.log
+
+# Python ja virtuaaliympäristöt
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
