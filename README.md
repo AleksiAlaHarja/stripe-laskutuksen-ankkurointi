@@ -21,6 +21,7 @@ Komentorivityökalu Stripe-tilausten (Subscriptions) vuosittaiseen syklin ankkur
 
 Kopioi ja liitä koko alla oleva lohko kerralla terminaaliin:
 
+Asenna komennolla:
 ```bash
 git clone https://github.com/AleksiAlaHarja/stripe-laskutuksen-ankkurointi.git
 cd stripe-laskutuksen-ankkurointi
@@ -29,6 +30,9 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install stripe pyyaml
 cp config.yaml.example config.yaml
+```
+Käynnistä komennolla:
+```bash
 python3 stripe-laskutuksen-ankkurointi.py
 ```
 
