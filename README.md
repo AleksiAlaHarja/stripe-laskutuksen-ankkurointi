@@ -22,10 +22,10 @@ Vaatimukset: Git pitää ilmeisesti olla asennettuna.
 
 Kopioi ja liitä koko alla oleva lohko kerralla terminaaliin:
 
-Asenna komennolla:
+Asenna terminaalin nykyiseen kansioon komennolla:
 ```bash
 git clone https://github.com/AleksiAlaHarja/stripe-laskutuksen-ankkurointi.git # Ladataan tiedostot
-cd stripe-laskutuksen-ankkurointi # Siirrytään kansioon
+cd stripe-laskutuksen-ankkurointi # Siirrytään projektin omaan kansioon
 python3 -m venv venv # Luodaan virtuaaliympäristö ettei paketit mene sekaisin muiden projektien kanssa
 source venv/bin/activate # Aktivoidaan äsken luotu virtuaaliympäristö
 pip install --upgrade pip # Asennetaan pakettienhallinta
